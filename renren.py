@@ -116,8 +116,8 @@ cookiehandler = urllib2.HTTPCookieProcessor(cookiesjar)
 opener = urllib2.build_opener(cookiehandler)
 
 opener.open('http://www.renren.com')
-post_data = { 'email':'bobobogogogo@126.com',\
-        'password':'qiaoruohui',\
+post_data = { 'email':'*******',\
+        'password':'*****',\
         'icode':'',\
         'origURL':'http://www.renren.com/indexcon',\
         'domain':'renren.com',\
